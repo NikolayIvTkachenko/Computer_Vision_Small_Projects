@@ -26,8 +26,8 @@ class Facedetector():
                     int(bboxC.width * iw), int(bboxC.height * ih)
 
                 bboxs.append([id, bbox, detection.score])
-
-                img = self.fancyDraw(img, bbox)
+                if draw:
+                    img = self.fancyDraw(img, bbox)
 
                 print(detection.score)
                 print(id, detection)
