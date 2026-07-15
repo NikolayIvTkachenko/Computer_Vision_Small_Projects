@@ -26,6 +26,8 @@ interface = devices.Activate(
     IAudioEndpointVolume._iid_, CLSCTX_ALL, None
 )
 volume = cast(interface, POINTER(IAudioEndpointVolume))
+print(volume.GetVolumeRange())
+
 
 
 # device = AudioUtilities.GetSpeakers()
