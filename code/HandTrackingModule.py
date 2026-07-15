@@ -39,7 +39,7 @@ class handDetector():
             handWork = self.results.multi_hand_landmarks[handNo]
 
             for id, lm in enumerate(handWork.landmark):
-                print(id, lm)
+                #print(id, lm)
                 h, w, c = image.shape
                 cx, cy = int(lm.x * w), int(lm.y * h)
                 #print(cx, cy)
