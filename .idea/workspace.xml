@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project">
-      <change beforePath="$PROJECT_DIR$/code/FaceMeshModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/FaceMeshModule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/GestureControlProgram001.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +261,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784124621703</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update project">
+      <option name="closed" value="true" />
+      <created>1784124959305</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1784124959305</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update project">
+      <option name="closed" value="true" />
+      <created>1784125098893</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1784125098893</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
