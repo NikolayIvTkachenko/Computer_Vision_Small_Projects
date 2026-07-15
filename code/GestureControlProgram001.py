@@ -12,11 +12,14 @@ cap.set(4, hCam)
 pTime = 0
 cTime = 0
 
-detector = htm.handDetector()
+detector = htm.handDetector(detectionCon=0.7)
 
 
 while True:
     success, img = cap.read()
+
+    img = detector.findHands(img)
+    lmList = detector.fi
 
 
     cTime = time.time()
