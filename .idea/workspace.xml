@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project">
-      <change beforePath="$PROJECT_DIR$/code/FaceDetection0001.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/FaceDetection0001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/FaceDetectionModule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/people_on_street.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.FaceDetection0001.executor": "Run",
+    "Python.FaceDetectionModule.executor": "Run",
     "Python.HandsProgram001.executor": "Run",
     "Python.HandsProgram002.executor": "Run",
     "Python.HandsTrackingProgram003.executor": "Run",
@@ -49,7 +52,7 @@
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FaceDetection0001">
+  <component name="RunManager" selected="Python.FaceDetectionModule">
     <configuration name="FaceDetection0001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -72,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HandsProgram002" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="FaceDetectionModule" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/HandsProgram002.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/FaceDetectionModule.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FaceDetectionModule" />
         <item itemvalue="Python.FaceDetection0001" />
         <item itemvalue="Python.PoseModule" />
         <item itemvalue="Python.PoseDetector001" />
         <item itemvalue="Python.HandsTrackingProgram003" />
-        <item itemvalue="Python.HandsProgram002" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784117657904</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update project">
+      <option name="closed" value="true" />
+      <created>1784117921221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784117921221</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
