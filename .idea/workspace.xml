@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/GestureControlProgram001.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/GestureControlProgram001.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/HandTrackingModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/HandTrackingModule.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,30 +32,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.FaceDetection0001.executor": "Run",
-    "Python.FaceDetectionModule.executor": "Run",
-    "Python.FaceMeshDetection001.executor": "Run",
-    "Python.FaceMeshModule.executor": "Run",
-    "Python.GestureControlProgram001.executor": "Run",
-    "Python.HandTrackingModule.executor": "Run",
-    "Python.HandsProgram001.executor": "Run",
-    "Python.HandsProgram002.executor": "Run",
-    "Python.HandsTrackingProgram003.executor": "Run",
-    "Python.PoseDetector001.executor": "Run",
-    "Python.PoseModule.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.FaceDetection0001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceDetectionModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceMeshDetection001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceMeshModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GestureControlProgram001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandTrackingModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandsProgram001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandsProgram002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandsTrackingProgram003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PoseDetector001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PoseModule.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.HandTrackingModule">
+  <component name="RunManager" selected="Python.GestureControlProgram001">
     <configuration name="FaceDetectionModule" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -168,8 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HandTrackingModule" />
         <item itemvalue="Python.GestureControlProgram001" />
+        <item itemvalue="Python.HandTrackingModule" />
         <item itemvalue="Python.FaceMeshModule" />
         <item itemvalue="Python.FaceMeshDetection001" />
         <item itemvalue="Python.FaceDetectionModule" />
