@@ -8,6 +8,7 @@ pip install --upgrade --force-reinstall mediapipe
 pip install --upgrade protobuf
 
 ----------------------------------------
+
 pip uninstall mediapipe -y
 pip install mediapipe==0.10.14
 <= Solutions
@@ -16,3 +17,16 @@ pip install mediapipe==0.10.14
 pip uninstall protobuf
 pip install protobuf==3.20.3
 --------------------------------------------------------------------------------
+
+# Удаляем текущие версии
+pip uninstall -y mediapipe protobuf opencv-python-headless opencv-python
+
+# Устанавливаем гарантированно рабочую связку версий
+# Protobuf должен быть СТАРШЕ версии 4.0, иначе .solutions перестанет существовать
+pip install "protobuf<4" mediapipe==0.10.13 opencv-python
+
+
+
+
+
+
