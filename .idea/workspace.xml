@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number">
-      <change afterPath="$PROJECT_DIR$/code_projects/GradientVideoImageProgram004.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv_basis/AppProgramm001.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv_basis/AppProgramm002.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv_basis/AppProgramm003.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv_basis/AppTrackBarProgramm002.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv_basis/AppVideoProgramm001.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv_basis/images/logo_ocp_001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv_basis/images/logo_ocp_002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv_basis/images/logo_ocp_003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv_basis/images/robocom_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv_basis/images/robocop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/opencv_basis/AppProgramm004_FilterColor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_projects/RecogniseObjectsProgram003.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_projects/RecogniseObjectsProgram003.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_projects/GradientVideoImageProgram004.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv_basis/AppProgramm001.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_basis/AppProgramm001.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +39,7 @@
     "Python.AppProgram002.executor": "Run",
     "Python.AppProgramm001.executor": "Run",
     "Python.AppProgramm003.executor": "Run",
+    "Python.AppProgramm004_FilterColor.executor": "Run",
     "Python.AppTrackBarProgram002.executor": "Run",
     "Python.FaceDetection0001.executor": "Run",
     "Python.FaceDetectionModule.executor": "Run",
@@ -75,7 +67,7 @@
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.AppProgramm003">
+  <component name="RunManager" selected="Python.AppProgramm004_FilterColor">
     <configuration name="AppProgramm001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -142,6 +134,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="AppProgramm004_FilterColor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv_basis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv_basis/AppProgramm004_FilterColor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="AppTrackBarProgramm002" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -164,35 +178,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RecogniseObjectsProgram003" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_projects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_projects/RecogniseObjectsProgram003.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AppProgramm004_FilterColor" />
         <item itemvalue="Python.AppProgramm003" />
         <item itemvalue="Python.AppTrackBarProgramm002" />
         <item itemvalue="Python.AppProgramm002" />
         <item itemvalue="Python.AppProgramm001" />
-        <item itemvalue="Python.RecogniseObjectsProgram003" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784335428084</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update project&#10;+recognise auto number">
+      <option name="closed" value="true" />
+      <created>1784378784216</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1784378784216</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
