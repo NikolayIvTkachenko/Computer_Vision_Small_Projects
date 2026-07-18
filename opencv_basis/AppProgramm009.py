@@ -51,10 +51,13 @@ while True:
     countours, h = cv2.findContours(closing, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
     countours = sorted(countours, key=cv2.contourArea, reverse=True)
 
-    try:
-        cv2.drawContours(frame, [countours[0]], -1, (255, 0, 0), 5)
-    except Exception:
-        print()
+    for item in range(len(countours)):
+        area=cv2.contourArea(countours[item])
+        if area > 300:
+            x, y, w, h = cv2.boundingRect(countours[item])
+            frame = cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+            frame = cv2.rectangle(frame, (x, y), (x+60, y-25), (0, 0, 0), -1) #1 - заполнить полностью
+            cv2.putText(frame, "Red", (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), 2)
 
     cv2.imshow("mask", mask)
     cv2.imshow("open", opennig)
@@ -65,3 +68,10 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
+
+
+#    try:
+#        cv2.drawContours(frame, [countours[0]], -1, (255, 0, 0), 5)
+#    except Exception:
+#        print()
