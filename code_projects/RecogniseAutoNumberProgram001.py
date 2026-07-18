@@ -8,7 +8,7 @@ def open_img(img_path):
     carplate_img = cv2.cvtColor(carplate_img, cv2.COLOR_BGR2RGB)
 
     plt.imshow(carplate_img)
-    plt.show()
+    #plt.show()
 
     return carplate_img
 
@@ -32,14 +32,30 @@ def enlarge_img(image, scale_percent):
     return resize_image
 
 def main():
-    carplate_img_rgb = open_img(img_path='photo/auto_number_001.jpg')
+    pytesseract.pytesseract.tesseract_cmd = r'D:\DRONES\Programm\Tesseract-OCR\tesseract.exe'
+
+    #carplate_img_rgb = open_img(img_path='photo/auto_number_001.jpg')
+    #carplate_img_rgb = open_img(img_path='photo/auto_number_002.jpg')
+    carplate_img_rgb = open_img(img_path='photo/auto_number_003.jpg')
+    #carplate_img_rgb = open_img(img_path='photo/auto_number_004.jpg')
     carplate_haar_cascade = cv2.CascadeClassifier('haar_cascade/haarcascade_russian_plate_number.xml')
 
     carplate_extract_img = carplate_extract(carplate_img_rgb, carplate_haar_cascade)
     carplate_extract_img = enlarge_img(carplate_extract_img, 150)
     plt.imshow(carplate_extract_img)
-    plt.show()
+    #plt.show()
 
+    carplate_extract_img_gray = cv2.cvtColor(carplate_extract_img, cv2.COLOR_RGB2GRAY)
+    plt.axis('off')
+    plt.imshow(carplate_extract_img_gray, cmap='gray')
+    #plt.show()
+
+    print('Auto Number: ', pytesseract.image_to_string(
+        carplate_extract_img_gray,
+        config='--psm 6 --oem 3 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+    ))
 
 if __name__ == '__main__':
     main()
+
+# pytesseract.pytesseract.tesseract_cmd = r'D:\DRONES\Programm\Tesseract-OCR\tesseract.exe'

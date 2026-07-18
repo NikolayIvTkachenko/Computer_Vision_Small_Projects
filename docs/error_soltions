@@ -26,6 +26,27 @@ pip uninstall -y mediapipe protobuf opencv-python-headless opencv-python
 pip install "protobuf<4" mediapipe==0.10.13 opencv-python
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
+
+sudo apt update
+sudo apt install tesseract-ocr
+# Для поддержки русского языка дополнительно ставится языковой пакет:
+sudo apt install libtesseract-dev libleptonica-dev tesseract-ocr-rus
+
+После установки откройте новый терминал или командную строку (старые окна могут не увидеть изменения в PATH) и выполните команду:
+
+Windows: tesseract --version
+macOS / Linux: tesseract -v
+
+https://tesseractocr.org/
+https://github.com/UB-Mannheim/tesseract/wiki
+//C:\Users\RobotComp.ru\AppData\Local\Programs\Tesseract-OCR
+C:\Users\RobotComp.ru\AppData\Local\Programs\Tesseract-OCR
+D:\DRONES\Programm\Tesseract-OCR
+
+
+
 
 
 
