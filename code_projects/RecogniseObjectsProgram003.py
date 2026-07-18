@@ -31,6 +31,13 @@ while True:
         area = cv2.contourArea(contour)
         if area > 10000: # Более менее оптимальное число
             cv2.drawContours(frame, contour, -1, (200, 200, 0), 3)
+            p = cv2.arcLength(contour, True)
+            num = cv2.approxPolyDP(contour, 0.01 * p, True)
+            #print(num)
+            x, y, w, h = cv2.boundingRect(num)
+            # Длинна num говорит о том, скколько точек есть в объекте
+            print(len(num))
+            cv2.rectangle(frame, (x, y, x+w, y+h), (0, 0, 256), 4)
 
 
     cv2.imshow("frame", frame)
