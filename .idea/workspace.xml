@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/opencv_basis/AppProgramm009.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_basis/AppProgramm009.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,7 @@
     "Python.AppProgramm007.executor": "Run",
     "Python.AppProgramm007_Ersion_Delisiom.executor": "Run",
     "Python.AppProgramm008.executor": "Run",
+    "Python.AppProgramm009.executor": "Run",
     "Python.AppTrackBarProgram002.executor": "Run",
     "Python.FaceDetection0001.executor": "Run",
     "Python.FaceDetectionModule.executor": "Run",
@@ -446,7 +448,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784408613249</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="update project&#10;+recognise auto number">
+      <option name="closed" value="true" />
+      <created>1784409124000</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1784409124000</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

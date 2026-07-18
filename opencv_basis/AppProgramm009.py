@@ -57,6 +57,10 @@ while True:
             x, y, w, h = cv2.boundingRect(countours[item])
             frame = cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
             frame = cv2.rectangle(frame, (x, y), (x+60, y-25), (0, 0, 0), -1) #1 - заполнить полностью
+
+            frame = cv2.circle(frame, (x + (w // 2), y  + (h //2)), 20, (0, 255, 0), -1)
+            print("x:", x + (w // 2), " y:",y  + (h //2))
+
             cv2.putText(frame, "Red", (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), 2)
 
     cv2.imshow("mask", mask)
