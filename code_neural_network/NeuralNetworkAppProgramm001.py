@@ -7,7 +7,7 @@ from tensorflow import keras
 # %matplotlib inline — только для интерактивных сред (Jupyter
 
 #from tensorflow.keras.datasets import fashion_mnist
-# from tensorflow.keras.models import Sequential
+from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras import utils
 
