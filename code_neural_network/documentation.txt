@@ -21,7 +21,8 @@ pip install pyserial
 
 
 --------------------------------------------------------------------------------
-
+Интересный код
+#github.com/ItTalks/Road-Marking-Detection/blob/master/lanes.py
 
 
 

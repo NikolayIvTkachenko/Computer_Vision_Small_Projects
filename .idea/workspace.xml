@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network">
-      <change afterPath="$PROJECT_DIR$/code_projects/RoadSpaceProgram006.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_projects/SerialSendDataProgram005.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_projects/SerialSendDataProgram005_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_projects/SerialSendDataProgram005_db_arduino.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code_projects/video/road_field.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code_neural_network/documentation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code_neural_network/documentation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_projects/LibFunctionProgram006.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_projects/LibFunctionProgram006.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_projects/RoadSpaceProgram006.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_projects/RoadSpaceProgram006.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +59,7 @@
     "Python.HandsProgram001.executor": "Run",
     "Python.HandsProgram002.executor": "Run",
     "Python.HandsTrackingProgram003.executor": "Run",
+    "Python.LibFunctionProgram006.executor": "Run",
     "Python.NeuralNetworkAppProgramm001.executor": "Run",
     "Python.NeuralNetworkAppProgramm002.executor": "Run",
     "Python.NeuralNetworkAppProgramm003.executor": "Run",
@@ -70,6 +68,7 @@
     "Python.RecogniseAutoNumberProgram001.executor": "Run",
     "Python.RecogniseAutoNumberProgram002.executor": "Run",
     "Python.RecogniseObjectsProgram003.executor": "Run",
+    "Python.RoadSpaceProgram006.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "D:/DRONES/CODE_COMPUTER_VISION/ComputerVision/pythonProject/code_projects/haar_cascade",
@@ -86,7 +85,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.RoadSpaceProgram006">
-    <configuration name="FaceRegognisionProgram004" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="LibFunctionProgram006" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +98,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_projects/FaceRegognisionProgram004.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_projects/LibFunctionProgram006.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,10 +198,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.RoadSpaceProgram006" />
+        <item itemvalue="Python.LibFunctionProgram006" />
         <item itemvalue="Python.NeuralNetworkAppProgramm003" />
         <item itemvalue="Python.NeuralNetworkAppProgramm002" />
         <item itemvalue="Python.NeuralNetworkAppProgramm001" />
-        <item itemvalue="Python.FaceRegognisionProgram004" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784458475272</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network">
+      <option name="closed" value="true" />
+      <created>1784495307479</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1784495307479</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
