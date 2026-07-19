@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network">
-      <change afterPath="$PROJECT_DIR$/code_neural_network/NeuralNetworkAppProgramm003_Load.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_projects/RoadSpaceProgram006.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_projects/SerialSendDataProgram005.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_projects/SerialSendDataProgram005_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_projects/SerialSendDataProgram005_db_arduino.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_projects/video/road_field.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_neural_network/NeuralNetworkAppProgramm003.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_neural_network/NeuralNetworkAppProgramm003.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_neural_network/documentation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code_neural_network/documentation.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,29 +85,7 @@
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.NeuralNetworkAppProgramm003">
-    <configuration name="AppProgramm009" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/opencv_basis" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv_basis/AppProgramm009.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.RoadSpaceProgram006">
     <configuration name="FaceRegognisionProgram004" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -192,13 +174,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="RoadSpaceProgram006" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_projects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_projects/RoadSpaceProgram006.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.RoadSpaceProgram006" />
         <item itemvalue="Python.NeuralNetworkAppProgramm003" />
         <item itemvalue="Python.NeuralNetworkAppProgramm002" />
         <item itemvalue="Python.NeuralNetworkAppProgramm001" />
         <item itemvalue="Python.FaceRegognisionProgram004" />
-        <item itemvalue="Python.AppProgramm009" />
       </list>
     </recent_temporary>
   </component>
@@ -522,7 +526,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784456244476</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network">
+      <option name="closed" value="true" />
+      <created>1784458475272</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1784458475272</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -569,5 +581,15 @@
     <MESSAGE value="update project&#10;+recognise auto number" />
     <MESSAGE value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network" />
     <option name="LAST_COMMIT_MESSAGE" value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code_projects/RecogniseAutoNumberProgram002.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
