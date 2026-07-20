@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_neural_network/documentation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code_neural_network/documentation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_projects/LibFunctionProgram006.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_projects/LibFunctionProgram006.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_projects/RoadSpaceProgram006.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_projects/RoadSpaceProgram006.py" afterDir="false" />
+    <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <change afterPath="$PROJECT_DIR$/code_yolo/video/auto_fro_camera_short.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +35,7 @@
   "keyToString": {
     "Python.AppProgram002.executor": "Run",
     "Python.AppProgramm001.executor": "Run",
+    "Python.AppProgramm002.executor": "Run",
     "Python.AppProgramm003.executor": "Run",
     "Python.AppProgramm004_FilterColor.executor": "Run",
     "Python.AppProgramm005.executor": "Run",
@@ -65,18 +63,23 @@
     "Python.NeuralNetworkAppProgramm003.executor": "Run",
     "Python.PoseDetector001.executor": "Run",
     "Python.PoseModule.executor": "Run",
+    "Python.ProgramMlApp.executor": "Run",
     "Python.RecogniseAutoNumberProgram001.executor": "Run",
     "Python.RecogniseAutoNumberProgram002.executor": "Run",
     "Python.RecogniseObjectsProgram003.executor": "Run",
     "Python.RoadSpaceProgram006.executor": "Run",
+    "Python.ServiceApp.executor": "Run",
+    "Python.StreamlitApp.executor": "Run",
+    "Python.TestApiApp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/DRONES/CODE_COMPUTER_VISION/ComputerVision/pythonProject/code_projects/haar_cascade",
+    "last_opened_file_path": "D:/DRONES/CODE_COMPUTER_VISION/ComputerVision/pythonProject",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\service_api_ml" />
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\code_projects\haar_cascade" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -84,8 +87,8 @@
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RoadSpaceProgram006">
-    <configuration name="LibFunctionProgram006" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.StreamlitApp">
+    <configuration name="AppProgramm002" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_projects" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_yolo/yolo_8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_projects/LibFunctionProgram006.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_yolo/yolo_8/AppProgramm002.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NeuralNetworkAppProgramm001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ProgramMlApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_neural_network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/service_api_ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_neural_network/NeuralNetworkAppProgramm001.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/service_api_ml/ProgramMlApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NeuralNetworkAppProgramm002" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_neural_network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/service_api_ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_neural_network/NeuralNetworkAppProgramm002.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/service_api_ml/ServiceApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NeuralNetworkAppProgramm003" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamlitApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_neural_network" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/service_api_ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_neural_network/NeuralNetworkAppProgramm003.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/service_api_ml/StreamlitApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RoadSpaceProgram006" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="TestApiApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,11 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_projects" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/service_api_ml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_projects/RoadSpaceProgram006.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/service_api_ml/TestApiApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RoadSpaceProgram006" />
-        <item itemvalue="Python.LibFunctionProgram006" />
-        <item itemvalue="Python.NeuralNetworkAppProgramm003" />
-        <item itemvalue="Python.NeuralNetworkAppProgramm002" />
-        <item itemvalue="Python.NeuralNetworkAppProgramm001" />
+        <item itemvalue="Python.StreamlitApp" />
+        <item itemvalue="Python.TestApiApp" />
+        <item itemvalue="Python.ServiceApp" />
+        <item itemvalue="Python.ProgramMlApp" />
+        <item itemvalue="Python.AppProgramm002" />
       </list>
     </recent_temporary>
   </component>
@@ -541,7 +544,79 @@
       <option name="project" value="LOCAL" />
       <updated>1784495307479</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network">
+      <option name="closed" value="true" />
+      <created>1784498104017</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1784498104018</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <option name="closed" value="true" />
+      <created>1784588556792</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1784588556792</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <option name="closed" value="true" />
+      <created>1785073217713</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1785073217713</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <option name="closed" value="true" />
+      <created>1785080124183</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1785080124183</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <option name="closed" value="true" />
+      <created>1785083494374</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1785083494374</updated>
+    </task>
+    <task id="LOCAL-00046" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <option name="closed" value="true" />
+      <created>1785083506225</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1785083506225</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <option name="closed" value="true" />
+      <created>1785099745323</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1785099745323</updated>
+    </task>
+    <task id="LOCAL-00048" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <option name="closed" value="true" />
+      <created>1785193750581</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1785193750581</updated>
+    </task>
+    <task id="LOCAL-00049" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <option name="closed" value="true" />
+      <created>1785193992497</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1785193992497</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -587,7 +662,8 @@
     <MESSAGE value="update project" />
     <MESSAGE value="update project&#10;+recognise auto number" />
     <MESSAGE value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network" />
+    <MESSAGE value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
