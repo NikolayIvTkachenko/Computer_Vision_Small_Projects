@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
-      <change afterPath="$PROJECT_DIR$/code_yolo/video/auto_fro_camera_short.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_base/ProgramApp001.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_code_base/ProgramApp001.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU" />
+        <option name="rewordedMessage" value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="f8a32da9d4ef7dbbf9ec62dbd6bd31cbbe255a11" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -31,52 +42,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.AppProgram002.executor": "Run",
-    "Python.AppProgramm001.executor": "Run",
-    "Python.AppProgramm002.executor": "Run",
-    "Python.AppProgramm003.executor": "Run",
-    "Python.AppProgramm004_FilterColor.executor": "Run",
-    "Python.AppProgramm005.executor": "Run",
-    "Python.AppProgramm006.executor": "Run",
-    "Python.AppProgramm007.executor": "Run",
-    "Python.AppProgramm007_Ersion_Delisiom.executor": "Run",
-    "Python.AppProgramm008.executor": "Run",
-    "Python.AppProgramm009.executor": "Run",
-    "Python.AppTrackBarProgram002.executor": "Run",
-    "Python.FaceDetection0001.executor": "Run",
-    "Python.FaceDetectionModule.executor": "Run",
-    "Python.FaceMeshDetection001.executor": "Run",
-    "Python.FaceMeshModule.executor": "Run",
-    "Python.FaceRegognisionProgram004.executor": "Run",
-    "Python.FingerCounterProgram001.executor": "Run",
-    "Python.GestureControlProgram001.executor": "Run",
-    "Python.GestureControlProgram002.executor": "Run",
-    "Python.HandTrackingModule.executor": "Run",
-    "Python.HandsProgram001.executor": "Run",
-    "Python.HandsProgram002.executor": "Run",
-    "Python.HandsTrackingProgram003.executor": "Run",
-    "Python.LibFunctionProgram006.executor": "Run",
-    "Python.NeuralNetworkAppProgramm001.executor": "Run",
-    "Python.NeuralNetworkAppProgramm002.executor": "Run",
-    "Python.NeuralNetworkAppProgramm003.executor": "Run",
-    "Python.PoseDetector001.executor": "Run",
-    "Python.PoseModule.executor": "Run",
-    "Python.ProgramMlApp.executor": "Run",
-    "Python.RecogniseAutoNumberProgram001.executor": "Run",
-    "Python.RecogniseAutoNumberProgram002.executor": "Run",
-    "Python.RecogniseObjectsProgram003.executor": "Run",
-    "Python.RoadSpaceProgram006.executor": "Run",
-    "Python.ServiceApp.executor": "Run",
-    "Python.StreamlitApp.executor": "Run",
-    "Python.TestApiApp.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/DRONES/CODE_COMPUTER_VISION/ComputerVision/pythonProject",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.AppProgram002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm004_FilterColor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm005.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm006.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm007.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm007_Ersion_Delisiom.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm008.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm009.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppTrackBarProgram002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceDetection0001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceDetectionModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceMeshDetection001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceMeshModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceRegognisionProgram004.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FingerCounterProgram001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GestureControlProgram001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GestureControlProgram002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandTrackingModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandsProgram001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandsProgram002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandsTrackingProgram003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LibFunctionProgram006.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NeuralNetworkAppProgramm001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NeuralNetworkAppProgramm002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NeuralNetworkAppProgramm003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PoseDetector001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PoseModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ProgramMlApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RecogniseAutoNumberProgram001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RecogniseAutoNumberProgram002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RecogniseObjectsProgram003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RoadSpaceProgram006.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ServiceApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StreamlitApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TestApiApp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DRONES/CODE_COMPUTER_VISION/ComputerVision/pythonProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\service_api_ml" />
@@ -223,22 +234,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784066026226</updated>
-    </task>
-    <task id="LOCAL-00001" summary="init">
-      <option name="closed" value="true" />
-      <created>1784069446008</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1784069446008</updated>
-    </task>
-    <task id="LOCAL-00002" summary="init">
-      <option name="closed" value="true" />
-      <created>1784073879577</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1784073879577</updated>
     </task>
     <task id="LOCAL-00003" summary="update project">
       <option name="closed" value="true" />
@@ -616,7 +611,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785193992497</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <option name="closed" value="true" />
+      <created>1785194273627</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1785194273628</updated>
+    </task>
+    <task id="LOCAL-00051" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <option name="closed" value="true" />
+      <created>1785194430193</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1785194430193</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
