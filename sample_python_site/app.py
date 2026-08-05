@@ -22,7 +22,7 @@ def index():
 
 @app.route("/create", methods=['POST', 'GET'])
 def create():
-    if request.methos == 'POST':
+    if request.method == 'POST':
         print(request.form['title'])
         print(request.form['text'])
         title = request.form['title']
@@ -40,7 +40,8 @@ def create():
 
 @app.route("/posts")
 def posts():
-    return render_template("posts.html")
+    posts = Post.query.all()
+    return render_template("posts.html", posts=posts)
 
 
 @app.route("/about")
