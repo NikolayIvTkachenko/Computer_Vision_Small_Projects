@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <change afterPath="$PROJECT_DIR$/code/BlurFaceApp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv_basis/AppProgramm010.py" beforeDir="false" afterPath="$PROJECT_DIR$/opencv_basis/AppProgramm010.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,52 +42,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.AppProgram002.executor": "Run",
-    "Python.AppProgramm001.executor": "Run",
-    "Python.AppProgramm002.executor": "Run",
-    "Python.AppProgramm003.executor": "Run",
-    "Python.AppProgramm004_FilterColor.executor": "Run",
-    "Python.AppProgramm005.executor": "Run",
-    "Python.AppProgramm006.executor": "Run",
-    "Python.AppProgramm007.executor": "Run",
-    "Python.AppProgramm007_Ersion_Delisiom.executor": "Run",
-    "Python.AppProgramm008.executor": "Run",
-    "Python.AppProgramm009.executor": "Run",
-    "Python.AppTrackBarProgram002.executor": "Run",
-    "Python.FaceDetection0001.executor": "Run",
-    "Python.FaceDetectionModule.executor": "Run",
-    "Python.FaceMeshDetection001.executor": "Run",
-    "Python.FaceMeshModule.executor": "Run",
-    "Python.FaceRegognisionProgram004.executor": "Run",
-    "Python.FingerCounterProgram001.executor": "Run",
-    "Python.GestureControlProgram001.executor": "Run",
-    "Python.GestureControlProgram002.executor": "Run",
-    "Python.HandTrackingModule.executor": "Run",
-    "Python.HandsProgram001.executor": "Run",
-    "Python.HandsProgram002.executor": "Run",
-    "Python.HandsTrackingProgram003.executor": "Run",
-    "Python.LibFunctionProgram006.executor": "Run",
-    "Python.NeuralNetworkAppProgramm001.executor": "Run",
-    "Python.NeuralNetworkAppProgramm002.executor": "Run",
-    "Python.NeuralNetworkAppProgramm003.executor": "Run",
-    "Python.PoseDetector001.executor": "Run",
-    "Python.PoseModule.executor": "Run",
-    "Python.ProgramMlApp.executor": "Run",
-    "Python.RecogniseAutoNumberProgram001.executor": "Run",
-    "Python.RecogniseAutoNumberProgram002.executor": "Run",
-    "Python.RecogniseObjectsProgram003.executor": "Run",
-    "Python.RoadSpaceProgram006.executor": "Run",
-    "Python.ServiceApp.executor": "Run",
-    "Python.StreamlitApp.executor": "Run",
-    "Python.TestApiApp.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/DRONES/CODE_COMPUTER_VISION/ComputerVision/pythonProject",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.AppProgram002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm004_FilterColor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm005.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm006.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm007.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm007_Ersion_Delisiom.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm008.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppProgramm009.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AppTrackBarProgram002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceDetection0001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceDetectionModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceMeshDetection001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceMeshModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FaceRegognisionProgram004.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FingerCounterProgram001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GestureControlProgram001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GestureControlProgram002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandTrackingModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandsProgram001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandsProgram002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandsTrackingProgram003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LibFunctionProgram006.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NeuralNetworkAppProgramm001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NeuralNetworkAppProgramm002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NeuralNetworkAppProgramm003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PoseDetector001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PoseModule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ProgramMlApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RecogniseAutoNumberProgram001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RecogniseAutoNumberProgram002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RecogniseObjectsProgram003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RoadSpaceProgram006.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ServiceApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StreamlitApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TestApiApp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DRONES/CODE_COMPUTER_VISION/ComputerVision/pythonProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\service_api_ml" />
@@ -98,7 +98,7 @@
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.AppProgramm003">
+  <component name="RunManager" selected="Python.BlurFaceApp">
     <configuration name="AppProgramm003" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -121,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ProgramMlApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BlurFaceApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/service_api_ml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/service_api_ml/ProgramMlApp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/BlurFaceApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BlurFaceApp" />
         <item itemvalue="Python.AppProgramm003" />
         <item itemvalue="Python.StreamlitApp" />
         <item itemvalue="Python.TestApiApp" />
         <item itemvalue="Python.ServiceApp" />
-        <item itemvalue="Python.ProgramMlApp" />
       </list>
     </recent_temporary>
   </component>
@@ -234,14 +234,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784066026226</updated>
-    </task>
-    <task id="LOCAL-00003" summary="update project">
-      <option name="closed" value="true" />
-      <created>1784116811260</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1784116811260</updated>
     </task>
     <task id="LOCAL-00004" summary="update project">
       <option name="closed" value="true" />
@@ -627,7 +619,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785194430193</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU">
+      <option name="closed" value="true" />
+      <created>1785614325273</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1785614325274</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
