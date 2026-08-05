@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dict/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"/>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+
+<div class="page">
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <img class="header__img" src="{{ url_for('static', filename='img/law.png')}}" alt="lam">
+            </a>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="{{ url_for('index')}}" class="nav-link px-2 link-secondary">Главная</a></li>
+                <li><a href="{{ url_for('about')}}" class="nav-link px-2 link-dark">О нас</a></li>
+                <li><a href="{{ url_for('posts')}}" class="nav-link px-2 link-dark">Все записи</a></li>
+                <li><a href="{{ url_for('create')}}" class="nav-link px-2 link-dark">Добавить запись</a></li>
+            </ul>
+
+        </header>
+    </div>
+    <div class="col-md-3 text-end">
+        <button type="button" class="btn btn-outline-primary me-2">Войти</button>
+        <button type="button" class="btn btn-primary">Зарегистрироваться</button>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            {% block content %} {% endblock %}
+        </div>
+    </div>
+</div>
+</body>
+</html>

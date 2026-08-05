@@ -1,0 +1,87 @@
+https://www.youtube.com/watch?v=MwwLL9vdbLU
+https://www.youtube.com/watch?v=c0YzMwCEje0
+
+https://www.youtube.com/watch?v=759C2p3CAA4
+===================================================
+
+создать папку проекта
+py -3 -m venv venv   -> установка виртуального окружения
+venv/Scripts/activate
+
+pip install flask
+
+создаем app.py   вкорне
+
+pip install flask_sqlalchemy
+
+Use=> Python console
+>>>from app import app, db
+>>>app.app_content().push()
+>>>db.create_all()
+
+Use dbbrowser sqlite
+
+============
+
+Пример:
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/index")
+@app.route("/")
+def index():
+    return "<h1>Главная страница</h1>"
+
+@app.route("/about")
+def about():
+    return "<h1>Страница о нас</h1>"
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+=================
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/index")
+@app.route("/")
+def index():
+    return render_template('index.html')
+
+@app.route("/about")
+def about():
+    return render_template('about.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+</head>
+<body>
+    <h1>Главная страница</h1>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница о нас</title>
+</head>
+<body>
+    <h1>Страница о нас</h1>
+</body>
+</html>
+
+==================================================
+
