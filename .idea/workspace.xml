@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site">
-      <change afterPath="$PROJECT_DIR$/sample_python_site/instance/example.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/ClassificationApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/ClasterizationApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/ClasterizationAppV02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/OutputRegressionData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/RegressionApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/Residential-Building-Data-Set.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/class_group.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/germat_credit.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/store_data_01.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_python_site/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/sample_python_site/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_python_site/docs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sample_python_site/docs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_python_site/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sample_python_site/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_python_site/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/sample_python_site/templates/posts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -63,6 +67,9 @@
     "Python.AppProgramm009.executor": "Run",
     "Python.AppTrackBarProgram002.executor": "Run",
     "Python.BlurFaceApp.executor": "Run",
+    "Python.ClassificationApp.executor": "Run",
+    "Python.ClasterizationApp.executor": "Run",
+    "Python.ClasterizationAppV02.executor": "Run",
     "Python.FaceDetection0001.executor": "Run",
     "Python.FaceDetectionModule.executor": "Run",
     "Python.FaceMeshDetection001.executor": "Run",
@@ -85,6 +92,7 @@
     "Python.RecogniseAutoNumberProgram001.executor": "Run",
     "Python.RecogniseAutoNumberProgram002.executor": "Run",
     "Python.RecogniseObjectsProgram003.executor": "Run",
+    "Python.RegressionApp.executor": "Run",
     "Python.RoadSpaceProgram006.executor": "Run",
     "Python.ServiceApp.executor": "Run",
     "Python.StreamlitApp.executor": "Run",
@@ -92,12 +100,13 @@
     "Python.app.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/DRONES/CODE_COMPUTER_VISION/ComputerVision/pythonProject",
+    "last_opened_file_path": "D:/DRONES/CODE_COMPUTER_VISION/ComputerVision/pythonProject/machine_learning_edu_sample",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\machine_learning_edu_sample" />
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\service_api_ml" />
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\code_projects\haar_cascade" />
     </key>
@@ -106,8 +115,8 @@
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app">
-    <configuration name="AppProgramm003" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ClasterizationAppV02">
+    <configuration name="ClassificationApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code_yolo/yolo_8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine_learning_edu_sample" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_yolo/yolo_8/AppProgramm003.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine_learning_edu_sample/ClassificationApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BlurFaceApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ClasterizationApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,11 +147,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine_learning_edu_sample" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/BlurFaceApp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine_learning_edu_sample/ClasterizationApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="StreamlitApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ClasterizationAppV02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,11 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/service_api_ml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine_learning_edu_sample" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/service_api_ml/StreamlitApp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine_learning_edu_sample/ClasterizationAppV02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TestApiApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RegressionApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,11 +191,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/service_api_ml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine_learning_edu_sample" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/service_api_ml/TestApiApp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine_learning_edu_sample/RegressionApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ClasterizationAppV02" />
+        <item itemvalue="Python.ClasterizationApp" />
+        <item itemvalue="Python.RegressionApp" />
+        <item itemvalue="Python.ClassificationApp" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.BlurFaceApp" />
-        <item itemvalue="Python.AppProgramm003" />
-        <item itemvalue="Python.StreamlitApp" />
-        <item itemvalue="Python.TestApiApp" />
       </list>
     </recent_temporary>
   </component>
@@ -242,14 +251,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784066026226</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update project">
-      <option name="closed" value="true" />
-      <created>1784119460925</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1784119460925</updated>
     </task>
     <task id="LOCAL-00007" summary="update project">
       <option name="closed" value="true" />
@@ -635,7 +636,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785970835103</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site">
+      <option name="closed" value="true" />
+      <created>1785972633325</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1785972633325</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
