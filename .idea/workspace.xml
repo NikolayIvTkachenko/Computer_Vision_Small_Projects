@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site">
-      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/ClassificationApp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/ClasterizationApp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/ClasterizationAppV02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/OutputRegressionData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/RegressionApp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/Residential-Building-Data-Set.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/class_group.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/germat_credit.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/store_data_01.csv" afterDir="false" />
+    <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
+      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/AssociateListApp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/install_lib.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/prod.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_edu_sample/ClasterizationAppV02.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_edu_sample/ClasterizationAppV02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,14 +246,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784066026226</updated>
-    </task>
-    <task id="LOCAL-00007" summary="update project">
-      <option name="closed" value="true" />
-      <created>1784121086180</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1784121086180</updated>
     </task>
     <task id="LOCAL-00008" summary="update project">
       <option name="closed" value="true" />
@@ -644,7 +631,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785972633325</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
+      <option name="closed" value="true" />
+      <created>1786050240346</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1786050240346</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -693,7 +688,8 @@
     <MESSAGE value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU" />
     <MESSAGE value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app" />
     <MESSAGE value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site" />
+    <MESSAGE value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

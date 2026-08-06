@@ -40,6 +40,69 @@ def scatter3d(x, y, z, c):
 
 scatter3d(x, y, z, 'blue')
 
+clients = clean_data
+clients = np.delete(clients, np.s_[0:2], axis=1)
+clients = np.delete(clients, np.s_[1:11], axis=1)
+clients = np.delete(clients, np.s_[2:8], axis=1)
+
+kmeans = KMeans(n_clusters=5, random_state=0).fit(clients)
+portraits = kmeans.cluster_centers_
+
+for x in range (5):
+    if (round(portraits[x][2])==1):
+        resident = 'Гражданин'
+    else:
+        resident = 'Иностранец'
+    months = int(round(portraits[x][0]))
+    years = round((months/12), 1)
+
+    print(resident + 'в возрасте ' + str(int(round(portraits[x][1]))) + ' лет и кредит на срок ' + str(months) + ' месяцев (' + str(years) + ') лет.')
+
+# clean_data
+kmeans = KMeans(n_clusters=5, random_state=0).fit(clients)
+labels = kmeans.labels_
+print(labels)
+color = list(range(len(data)))
+
+for x in range(len(data)):
+    if labels[x] == 0:
+        color[x] = 'red'
+    elif labels[x] == 1:
+        color[x] = 'yellow'
+    elif labels[x] == 2:
+        color[x] = 'green'
+    elif labels[x] == 3:
+        color[x] = 'blue'
+    else:
+        color[x] = 'black'
+
+x = clients[:, 0]
+y = clients[:, 1]
+z = clients[:, 2]
+
+
+
+scatter3d(x, y, z, c=labels)
+
+
+#=========================================================
+# Пример кода
+
+for n_cluster in range(2, 16):
+    kmeans = KMeans(n_clusters=n_cluster).fit(clients)
+    label = kmeans.labels_
+    sil_coeff = silhouette_score(clients, label, metric='euclidean')
+    print("Для { } кластеров коэфицентов функции сидуэта = { }.".format(n_cluster, round(sil_coeff, 3)))
+
+# kmeans = KMeans(n_clusters=5, random_state=0).fit(clean_data)
+# color = list(range(len(clients)))
+# for x in range(len(clients)):
+#x = clean_data[:, 0]
+#y = clean_data[:, 1]
+#z = clean_data[:, 2]
+
+
+
 
 
 
