@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
-      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/AssociateListApp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/install_lib.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_learning_edu_sample/prod.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_science/SapmpleProgramApp001.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machine_learning_edu_sample/ClasterizationAppV02.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_edu_sample/ClasterizationAppV02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +86,7 @@
     "Python.RecogniseObjectsProgram003.executor": "Run",
     "Python.RegressionApp.executor": "Run",
     "Python.RoadSpaceProgram006.executor": "Run",
+    "Python.SapmpleProgramApp001.executor": "Run",
     "Python.ServiceApp.executor": "Run",
     "Python.StreamlitApp.executor": "Run",
     "Python.TestApiApp.executor": "Run",
@@ -110,7 +108,7 @@
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ClasterizationAppV02">
+  <component name="RunManager" selected="Python.SapmpleProgramApp001">
     <configuration name="ClassificationApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -199,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SapmpleProgramApp001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,11 +206,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sample_python_site" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_science" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample_python_site/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science/SapmpleProgramApp001.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SapmpleProgramApp001" />
         <item itemvalue="Python.ClasterizationAppV02" />
         <item itemvalue="Python.ClasterizationApp" />
         <item itemvalue="Python.RegressionApp" />
         <item itemvalue="Python.ClassificationApp" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -246,14 +244,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784066026226</updated>
-    </task>
-    <task id="LOCAL-00008" summary="update project">
-      <option name="closed" value="true" />
-      <created>1784121349028</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1784121349028</updated>
     </task>
     <task id="LOCAL-00009" summary="update project">
       <option name="closed" value="true" />
@@ -639,7 +629,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786050240346</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
+      <option name="closed" value="true" />
+      <created>1786057337053</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1786057337053</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
