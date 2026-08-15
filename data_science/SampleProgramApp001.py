@@ -101,21 +101,83 @@ for t in doc:
 #=======================================================================================================================================================
 # python -m spacy download en
 print("======= NATURAL LANGUAGE 3 ======")
-import spacy
-txt = 'List is a ubiquitous data structure in the Python programming language.'
-nlp = spacy.load("en")
-doc = nlp(txt)
-for t in doc:
-    print(t.text, t.head.text)
+#import spacy
+#txt = 'List is a ubiquitous data structure in the Python programming language.'
+#nlp = spacy.load("en")
+#doc = nlp(txt)
+#for t in doc:
+#    print(t.text, t.head.text)
 
 
+#=======================================================================================================================================================
+
+print("======= Кортеж ======")
+cortage01 = ('Ford', 'Mustang', 1964)
+print(cortage01)
 
 
+#=======================================================================================================================================================
+
+print("======= Словари ======")
+dict01 = {'Make' : 'Ford', 'Model' : 'Mustang', 'Year' : 1964}
+print(dict01)
+
+dict_list = [
+    {'time': '8:00', 'name': 'Pay bills'},
+    {'time': '8:30', 'name': 'Tidy up'},
+    {'time': '9:00', 'name': 'Walk the dog'},
+    {'time': '9:30', 'name': 'Go to the pharmacy'},
+    {'time': '10:30', 'name': 'Cook diner'}
+]
+print(dict_list)
+dict_list[1]['time'] = '9:00'
+print(dict_list)
+
+#=======================================================================================================================================================
+
+print("======= Словари setdefault ======")
+
+car = {
+    "brand": "Volkswagen",
+    "style": "Sedan",
+    "model": "Jetta"
+}
+
+# Не рабоатет
+print(car.setdefault("model", "Passat"))
+
+print(car.setdefault("year", 2022))
+
+print(car)
+
+#=======================================================================================================================================================
+
+print("======= Словари setdefault для NLP ======")
+
+txt01 = '''
+Python is one of the most promising programming language today. Due to the simplicity of Python syntax, many
+researches and scientists Python over many other language.
+'''
+
+txt01 = txt01.replace('.', '').replace(',','')
+
+lst = txt01.split()
+print(lst)
+
+dct = {}
+for w in lst:
+    c = dct.setdefault(w, 0)
+    dct[w] += 1
+
+print(dct)
+
+dct_sorted = dict(sorted(dct.items(), key=lambda x: x[1], reverse=True))
+print(dct_sorted)
 
 
+#=======================================================================================================================================================
 
-
-
+print("======= Словари. Преобразование JSON в словарь ======")
 
 
 
