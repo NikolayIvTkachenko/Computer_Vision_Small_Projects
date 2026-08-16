@@ -179,6 +179,26 @@ print(dct_sorted)
 
 print("======= Словари. Преобразование JSON в словарь ======")
 
+d = {
+    "PONumber"              : 2608,
+    "ShippingInstructions"  : {
+        "name"      : "John Silver",
+        "Address"   : {
+            "street"    : "426 Light Street",
+            "city"      : "South San Francisco",
+            "state"     : "CA",
+            "zipCode"   : 99237,
+            "country"   : "United States of America"
+        },
+        "Phone"         : [{"type":  "Office", "number":  "809-123-9309"},
+                           {"type":  "Mobile", "number":  "417-123-4567"}
+        ]
+    }
+}
+
+import json
+with open("po_base.json", "w") as outfile:
+    json.dump(d, outfile)
 
 
 
