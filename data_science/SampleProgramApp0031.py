@@ -22,16 +22,58 @@ from io import StringIO
 #    {"Empno": 9002, "Salary": 2800},
 #    {"Empno": 9003, "Salary": 2500}
 #]
+#
+# json_data = [
+#     {"Empno": 9001, "Salary": 3000},
+#     {"Empno": 9002, "Salary": 2800},
+#     {"Empno": 9003, "Salary": 2500}
+# ]
+#
+#
+# string_buffer = StringIO(json_data)
+# json_data_02 = json.dumps(string_buffer)
+# salary = pd.read_json(json_data_02)
+# salary = salary.set_index('Empno')
+# string_buffer.close()
+#
+# string_buffer = StringIO(data)
+#TypeError: initial_value must be str or None, not list
+
+print("=========================================================")
+
+import pandas as pd
 
 json_data = [
     {"Empno": 9001, "Salary": 3000},
     {"Empno": 9002, "Salary": 2800},
     {"Empno": 9003, "Salary": 2500}
 ]
-
-
-string_buffer = StringIO(json_data)
-json_data_02 = json.dumps(string_buffer)
-salary = pd.read_json(json_data_02)
+# Создаем таблицу напрямую из списка
+salary = pd.DataFrame(json_data)
+columns_types_02 = {'Empno': int, 'Salary': int }
+emps = emps.astype(columns_types_02)
+emps = emps.set_index('Empno')
+# Установка индекса (если раскомментировать вашу строку)
 # salary = salary.set_index('Empno')
-string_buffer.close()
+print(salary)
+# KeyError: "Only a column name can be used for the key in a dtype mappings argument. 'Empno' not found in columns."
+
+print("=========================================================")
+data = [['9001', 'Jeff Russell', 'sales'],
+        ['9002', 'Jane Boorman', 'sales'],
+        ['9003', 'Tom Heints', 'sales']]
+
+emps = pd.DataFrame(data, columns = ['Empno', 'Name', 'Job'])
+columns_types_01 = {'Empno': int, 'Name':str, 'Job': str }
+emps = emps.astype(columns_types_01)
+emps = emps.set_index('Empno')
+print(emps)
+print("--------")
+# НЕ работает
+emps_salary = emps.join(salary)
+print(emps_salary)
+#
+
+new_emp = pd.Series({'Name': 'John Hardy', 'Job': 'sales'}, name = 9004)
+emps = emps._append(new_emp)
+print(emps)
