@@ -96,3 +96,61 @@ finally:
 # ALTER TABLE salary ADD FOREIGN KEY (empno) REFERENCES emps (empno);
 # CREATE TABLE orders (pono INT NOT NULL, empno INT NOT NULL, total INT, PRIMARY KEY (pono));
 # ALTER TABLE salary ADD FOREIGN KEY (empno) REFERENCES emps (empno);
+
+
+try:
+    cnx = mysql.connector.connect(user='root', password='toor', host='localhost', port=3316, database='db_science')  # toortoor
+    cursor = cnx.cursor()
+
+    query = ("SELECT * FROM emps WHERE empno > %s")
+    empno = 9001
+
+    cursor.execute(query, (empno,))
+
+    for (empno, empname, job) in cursor:
+        print("{} {} {}".format(empno, empname, job))
+
+
+except mysql.connector.Error as err:
+    print("Error-Code:", err.errno)
+    print("Error-Message: {}".format(err.msg))
+    # Если транзакция начала записываться, но упала на середине — откатываем
+    if cnx and cnx.is_connected():
+        cnx.rollback()
+
+    print(f"Ошибка MySQL [{err.errno}]: {err.msg}")
+finally:
+    if cursor:
+        cursor.close()
+    if cnx and cnx.is_connected():
+        cnx.close()
+        print("Соединение с БД закрыто.")
+
+try:
+    cnx = mysql.connector.connect(user='root', password='toor', host='localhost', port=3316,
+                                  database='db_science')  # toortoor
+    cursor = cnx.cursor()
+
+    query = ("""SELECT e.empno, e.empname, e.job, s.salary FROM emps e JOIN salary s ON e.empno = s.empno WHERE e.empno > %s""")
+    empno = 9001
+
+    cursor.execute(query, (empno,))
+
+    for (empno, empname, job, salary) in cursor:
+        print("{} {} {} {}".format(empno, empname, job, salary))
+
+
+except mysql.connector.Error as err:
+    print("Error-Code:", err.errno)
+    print("Error-Message: {}".format(err.msg))
+    # Если транзакция начала записываться, но упала на середине — откатываем
+    if cnx and cnx.is_connected():
+        cnx.rollback()
+
+    print(f"Ошибка MySQL [{err.errno}]: {err.msg}")
+finally:
+    if cursor:
+        cursor.close()
+    if cnx and cnx.is_connected():
+        cnx.close()
+        print("Соединение с БД закрыто.")
