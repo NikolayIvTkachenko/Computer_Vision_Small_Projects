@@ -178,6 +178,15 @@ extra_fields_9423517 = {
 
 print(extra_fields_9423517)
 
+print("=================================================================")
+
+order_9423517 = {'OrderNo': 9423517, 'Date': '2022-02-04', 'Empno': 9001}
+
+print(order_9423517)
+order_9423517 = {**order_9423517, **extra_fields_9423517}
+print(order_9423517)
+
+
 
 
 
