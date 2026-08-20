@@ -210,7 +210,83 @@ orders_details = [[o for o in orders if d[0] in o][0] + d[1:] for d in details i
 print(orders_details)
 
 print("=================================================================")
-orders_details_right = [[]]
+# right join
+orders_details_right = [[o for o in orders if d[0] in o][0] + d[1:] if d[0] in [o[0] for o in orders] else (d[0], None, None) + d[1:] for d in details]
+print(orders_details)
+print("=================================================================")
+x = sum(pr * qt for _, _, _, _, _, pr, qt in orders_details_right)
+print(x)
+
+print("=================================================================")
+x = sum(pr * qt for _, dt, _, _, _, pr, qt in orders_details_right if dt != None)
+print(x)
+
+print("=========== Конкатенация массивов NumPy =====================")
+import numpy as np
+jeff_salary = [2700, 3000, 3000]
+nick_salary = [2600, 2800, 2800]
+tom_salary = [2300, 2500, 2500]
+
+base_salary1 = np.array([jeff_salary, nick_salary, tom_salary])
+
+maya_salary = [2200, 2400, 2400]
+john_salary = [2500, 2700, 2700]
+base_salary2 = np.array([maya_salary, john_salary])
+
+base_salary = np.concatenate((base_salary1, base_salary2), axis = 0)
+
+print(base_salary)
+print("=================================================================")
+
+new_month_salary = np.array([[3000], [2900], [2500], [2500], [2700]])
+print(new_month_salary)
+print("=================================================================")
+base_salary = np.concatenate((base_salary, new_month_salary), axis = 1)
+print(base_salary)
+
+print("===========   Конкатенация датафреймов   ========================")
+print("=================================================================")
+
+import pandas as pd
+
+salary_df1 = pd.DataFrame(
+    {'jeff': jeff_salary, 'nick': nick_salary, 'tom': tom_salary}
+)
+
+salary_df1.index = ['June', 'July', 'August']
+print(salary_df1)
+
+salary_df2 = pd.DataFrame(
+    { 'maya': maya_salary, 'john': john_salary },
+    index = ['June', 'July', 'August']
+).T
+
+print(salary_df2)
+
+print("=================================================================")
+salary_df = pd.concat([salary_df1, salary_df2])
+print(salary_df)
+
+print("=================================================================")
+salary_df3 = pd.DataFrame(
+    {'September': [3000, 2800, 2500, 2400, 2700], 'October': [3200, 3000, 2700, 2500, 2900]},
+    index = ['jeff', 'nick', 'tom', 'maya', 'john']
+)
+print(salary_df3)
+
+salary_df = pd.concat([salary_df, salary_df3], axis = 1)
+print(salary_df)
+
+print("=================================================================")
+
+salary_df = salary_df.drop(['September', 'October'], axis = 1)
+print(salary_df)
+
+
+
+
+
+
 
 
 
