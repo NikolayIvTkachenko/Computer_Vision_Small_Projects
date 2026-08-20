@@ -186,11 +186,31 @@ print(order_9423517)
 order_9423517 = {**order_9423517, **extra_fields_9423517}
 print(order_9423517)
 
+print("=================================================================")
 
+orders_details = []
+for o in orders:
+    for d in details:
+        if d[0] == o[0]:
+            orders_details.append(o + d[1:])
 
+print(orders_details)
+print("==")
+orders_details = [[o for o in orders if d[0] == o[0]][0] + d[1:] for d in details]
+print(orders_details)
 
+print("=================================================================")
 
+details.append((4626592, 'Shorts', 'Protest', 48.0, 1))
+# orders_details = [[o for o in orders if d[0] == o[0]][0] + d[1:] for d in details]
+# print(orders_details)
 
+# inner join
+orders_details = [[o for o in orders if d[0] in o][0] + d[1:] for d in details if d[0] in [o[0] for o in orders]]
+print(orders_details)
+
+print("=================================================================")
+orders_details_right = [[]]
 
 
 
