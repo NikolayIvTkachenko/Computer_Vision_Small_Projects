@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
-      <change afterPath="$PROJECT_DIR$/data_science/SampleProgramApp007.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_science/SampleProgramApp0071.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_science/SampleProgramApp0072.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_science/SampleProgramApp0073.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_science/SampleProgramApp0074.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_science/SampleProgramApp0075.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0002_RPM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0003_Euklid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +48,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.AlgorithmApp0001.executor": "Run",
+    "Python.AlgorithmApp0002_RPM.executor": "Run",
     "Python.AppProgram002.executor": "Run",
     "Python.AppProgramm001.executor": "Run",
     "Python.AppProgramm002.executor": "Run",
@@ -109,6 +108,9 @@
     "Python.SampleProgramApp0073.executor": "Run",
     "Python.SampleProgramApp0074.executor": "Run",
     "Python.SampleProgramApp0075.executor": "Run",
+    "Python.SampleProgramApp0100.executor": "Run",
+    "Python.SampleProgramApp0101.executor": "Run",
+    "Python.SampleProgramApp0102.executor": "Run",
     "Python.SapmpleProgramApp001.executor": "Run",
     "Python.ServiceApp.executor": "Run",
     "Python.StreamlitApp.executor": "Run",
@@ -131,8 +133,8 @@
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SampleProgramApp0075">
-    <configuration name="SampleProgramApp0071" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.AlgorithmApp0002_RPM">
+    <configuration name="AlgorithmApp0001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_science" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_algorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science/SampleProgramApp0071.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_algorithms/AlgorithmApp0001.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SampleProgramApp0072" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="AlgorithmApp0002_RPM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_science" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_algorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science/SampleProgramApp0072.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_algorithms/AlgorithmApp0002_RPM.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SampleProgramApp0073" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SampleProgramApp0100" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science/SampleProgramApp0073.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science/SampleProgramApp0100.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SampleProgramApp0074" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SampleProgramApp0101" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,7 +213,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science/SampleProgramApp0074.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science/SampleProgramApp0101.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,7 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SampleProgramApp0075" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SampleProgramApp0102" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,7 +235,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science/SampleProgramApp0075.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_science/SampleProgramApp0102.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SampleProgramApp0075" />
-        <item itemvalue="Python.SampleProgramApp0074" />
-        <item itemvalue="Python.SampleProgramApp0073" />
-        <item itemvalue="Python.SampleProgramApp0072" />
-        <item itemvalue="Python.SampleProgramApp0071" />
+        <item itemvalue="Python.AlgorithmApp0002_RPM" />
+        <item itemvalue="Python.AlgorithmApp0001" />
+        <item itemvalue="Python.SampleProgramApp0102" />
+        <item itemvalue="Python.SampleProgramApp0101" />
+        <item itemvalue="Python.SampleProgramApp0100" />
       </list>
     </recent_temporary>
   </component>
@@ -267,22 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784066026226</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update project">
-      <option name="closed" value="true" />
-      <created>1784154858615</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1784154858615</updated>
-    </task>
-    <task id="LOCAL-00024" summary="update project&#10;+recognise auto number">
-      <option name="closed" value="true" />
-      <created>1784275036017</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1784275036017</updated>
     </task>
     <task id="LOCAL-00025" summary="update project&#10;+recognise auto number">
       <option name="closed" value="true" />
@@ -660,7 +646,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787267421675</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
+      <option name="closed" value="true" />
+      <created>1787366408300</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1787366408300</updated>
+    </task>
+    <task id="LOCAL-00073" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
+      <option name="closed" value="true" />
+      <created>1787441824646</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1787441824646</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
