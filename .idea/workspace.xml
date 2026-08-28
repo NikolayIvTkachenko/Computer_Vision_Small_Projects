@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
+      <change afterPath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0007_Optimizatiom_001.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0006_Math_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0006_Math_01.py" afterDir="false" />
     </list>
@@ -59,6 +60,7 @@
     "Python.AlgorithmApp0005_Sorting_03_Merge.executor": "Run",
     "Python.AlgorithmApp0005_Sorting_04_Sleep.executor": "Run",
     "Python.AlgorithmApp0006_Math_01.executor": "Run",
+    "Python.AlgorithmApp0007_Optimizatiom_001.executor": "Run",
     "Python.AppProgram002.executor": "Run",
     "Python.AppProgramm001.executor": "Run",
     "Python.AppProgramm002.executor": "Run",
@@ -142,7 +144,7 @@
       <recent name="D:\DRONES\CODE_COMPUTER_VISION\ComputerVision\pythonProject\code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.AlgorithmApp0006_Math_01">
+  <component name="RunManager" selected="Python.AlgorithmApp0007_Optimizatiom_001">
     <configuration name="AlgorithmApp0005_Binary_Search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -157,28 +159,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_algorithms/AlgorithmApp0005_Binary_Search.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="AlgorithmApp0005_Sorting_02_Insert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_algorithms" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_algorithms/AlgorithmApp0005_Sorting_02_Insert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,13 +233,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="AlgorithmApp0007_Optimizatiom_001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_algorithms/AlgorithmApp0007_Optimizatiom_001.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AlgorithmApp0007_Optimizatiom_001" />
         <item itemvalue="Python.AlgorithmApp0006_Math_01" />
         <item itemvalue="Python.AlgorithmApp0005_Binary_Search" />
         <item itemvalue="Python.AlgorithmApp0005_Sorting_04_Sleep" />
         <item itemvalue="Python.AlgorithmApp0005_Sorting_03_Merge" />
-        <item itemvalue="Python.AlgorithmApp0005_Sorting_02_Insert" />
       </list>
     </recent_temporary>
   </component>
@@ -278,14 +280,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784066026226</updated>
-    </task>
-    <task id="LOCAL-00031" summary="update project&#10;+recognise auto number">
-      <option name="closed" value="true" />
-      <created>1784409124000</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1784409124000</updated>
     </task>
     <task id="LOCAL-00032" summary="update project&#10;+recognise auto number">
       <option name="closed" value="true" />
@@ -671,7 +665,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787864852879</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
+      <option name="closed" value="true" />
+      <created>1787899666027</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1787899666028</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

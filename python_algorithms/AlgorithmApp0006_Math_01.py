@@ -92,9 +92,61 @@ print(square_root(4, 1, 0.00000000001)) # ==> 2.000000000000002
 print(square_root(5, 1, 0.00000000001)) # ==> 2.236067977499978
 
 # ------------------------------------------------------------------------------------- #
+print("# ------------------------------------------------------------------------------------- #")
+print(math.sqrt(4))
+print(math.sqrt(5))
+print("# ------------------------------------------------------------------------------------- #")
+print("# --------- Линейные конгруэнтные генераторы ------------------------------------------ #")
+print("# ------------------------------------------------------------------------------------- #")
+# ГПСЧ - генератор псевдослучайных чисел
+# ЛКГ - линейный конгруэнтный генератор
+# следующие = (предыдущее * n1 + n2) mod n3
+#
 
+def next_random(previous, n1, n2, n3):
+    the_next = (previous * n1 + n2) % n3
+    return (the_next)
 
+def list_random(n1, n2, n3):
+    output = [1]
+    while len(output) <= n3:
+        output.append(next_random(output[len(output) - 1], n1, n2, n3))
 
+    return (output)
+
+print(list_random(1, 2, 24))
+print(list_random(29, 23, 32))
+print(list_random(1, 1, 37))
+
+def overlapping_sums(the_list, sum_length):
+    length_of_list = len(the_list)
+    the_list.extend(the_list)
+    output = []
+    for n in range(0, length_of_list):
+        output.append(sum(the_list[n: (n + sum_length)]))
+    return (output)
+
+import matplotlib.pyplot as plt
+overlap = overlapping_sums(list_random(211111, 111112, 300007), 12)
+plt.hist(overlap, 20, facecolor = 'blue', alpha = 0.5)
+
+plt.title('Result of the Overlapping Sums Test')
+plt.xlabel('Sum of Elements of Overlapping Consecutive Sections of List')
+plt.ylabel('Frequency of Sum')
+
+# plt.show()
+
+print("# ------------------------------------------------------------------------------------- #")
+
+bits = [1, 1, 1]
+print(bits)
+xor_result = (bits[1] + bits[2]) % 2
+print(xor_result)
+output = bits.pop()
+print(output)
+
+bits.insert(0, xor_result)
+print(bits)
 
 
 
