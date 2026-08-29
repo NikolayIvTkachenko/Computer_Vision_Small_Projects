@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
-      <change afterPath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0007_Optimizatiom_001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/figure005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_algorithms/figure3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0006_Math_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0006_Math_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0007_Optimizatiom_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0007_Optimizatiom_001.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,14 +281,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784066026226</updated>
-    </task>
-    <task id="LOCAL-00032" summary="update project&#10;+recognise auto number">
-      <option name="closed" value="true" />
-      <created>1784409913359</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1784409913359</updated>
     </task>
     <task id="LOCAL-00033" summary="update project&#10;+recognise auto number">
       <option name="closed" value="true" />
@@ -673,7 +666,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787899666028</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
+      <option name="closed" value="true" />
+      <created>1787952080404</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1787952080404</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
