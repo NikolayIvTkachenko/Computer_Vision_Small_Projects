@@ -101,11 +101,310 @@ print(howfar(genlines(cities=cities, itinerary=donn(cities=cities, N=N))))
 # Функция, которая вносит небольшие изменния в маршрут, сравнивает измененный маршрут с исходными и возвращает более короткий маршрут
 #
 print("=================================")
+print("=================================")
+initial_itinerary = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+new_itinerary = [0, 1, 2, 3, 4, 5, 30, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 6, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+print(initial_itinerary)
+print(new_itinerary)
+
+def perturb(cities, itinerary):
+    neighborids1 = math.floor(np.random.rand() * (len(itinerary)))
+    neighborids2 = math.floor(np.random.rand() * (len(itinerary)))
+
+    itinerary2 = itinerary.copy()
+
+    itinerary2[neighborids1] = itinerary[neighborids2]
+    itinerary2[neighborids2] = itinerary[neighborids1]
+
+    distance1 = howfar(genlines(cities=cities, itinerary=itinerary))
+    distance2 = howfar(genlines(cities=cities, itinerary=itinerary2))
+
+    itinerarytoreturn = itinerary.copy()
+
+    if(distance1 > distance2):
+        itinerarytoreturn = itinerary2.copy()
+
+    return (itinerarytoreturn.copy())
+
+print("============  PERTURB SEARCH ALGORITHM  =====================")
+print("=============================================================")
+
+itinerary = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+
+np.random.seed(random_seed)
+itinerary_ps = itinerary.copy()
+for n in range(0, len(itinerary) * 50000):
+    itinerary_ps = perturb(cities=cities, itinerary=itinerary_ps)
+
+
+# print(howfar(genlines(cities=cities, itinerary=itinerary_ps)))
+print("========= END => PERTURB SEARCH ALGORITHM ===================")
+# ============  PERTURB SEARCH ALGORITHM  =====================
+# =============================================================
+# 7.37962855396978
+# ========= END => PERTURB SEARCH ALGORITHM ===================
+
+temperature = lambda t: 1/(t + 1)
+
+import matplotlib.pyplot as plt
+
+ts = list(range(0, 100))
+
+plt.plot(ts, [temperature(t) for t in ts])
+
+plt.title('The Temperature Function')
+plt.xlabel('Time')
+plt.ylabel('Temperature')
+# plt.show()
 
 
 
+print("============  Имитация Отжига  =====================")
+print("=============================================================")
+
+def perturb_sa1(cities, itinerary, time):
+    neighborids1 = math.floor(np.random.rand() * (len(itinerary)))
+    neighborids2 = math.floor(np.random.rand() * (len(itinerary)))
+
+    itinerary2 = itinerary.copy()
+
+    itinerary2[neighborids1] = itinerary[neighborids2]
+    itinerary2[neighborids2] = itinerary[neighborids1]
+
+    distance1 = howfar(genlines(cities=cities, itinerary=itinerary))
+    distance2 = howfar(genlines(cities=cities, itinerary=itinerary2))
+
+    itinerarytoreturn = itinerary.copy()
+
+    randomdraw = np.random.rand()
+    temperature = 1 /((time/1000) + 1)
+
+    if((distance2 > distance1 and (randomdraw) < (temperature)) or (distance1 > distance2)):
+        itinerarytoreturn=itinerary2.copy()
+
+    return (itinerarytoreturn.copy())
+
+itinerary = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+
+np.random.seed(random_seed)
+
+itinerary_sa = itinerary.copy()
+
+for n in range(0, len(itinerary) * 50000):
+    itinerary_sa = perturb_sa1(cities=cities, itinerary=itinerary_sa, time=n)
+
+# Случайный маршрут
+print(howfar(genlines(cities=cities, itinerary=itinerary)))
+# Поиск с возмущением
+print(howfar(genlines(cities=cities, itinerary=itinerary_ps)))
+# Имитация отжига
+print(howfar(genlines(cities=cities, itinerary=itinerary_sa)))
+# Ближайший сосед
+print(howfar(genlines(cities=cities, itinerary=donn(cities=cities, N=N))))
+
+# ============  Имитация Отжига  =====================
+# =============================================================
+# 16.808756356994223
+# 7.37962855396978
+# 5.924388797206357
+# 6.29000579854535
+
+print("============  Настройка алгоритма  =====================")
+print("=============================================================")
+
+small = 10
+big = 20
+itinerary = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+
+itinerary[small:big] = itinerary[small:big][::-1]
+print(itinerary)
+
+print("=============================================================")
+itinerary = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+itinerary = [0, 5, 6, 7, 8, 1, 2, 3, 4, 9]
+
+small = 1
+big = 5
+itinerary = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+tempitin = itinerary[small:big]
+del(itinerary[small:big])
+
+np.random.seed(random_seed + 1)
+
+neighborids3 = math.floor(np.random.rand() * (len(itinerary)))
+
+for j in range(0, len(tempitin)):
+    itinerary.insert(neighborids3 + j, tempitin[j])
+
+def perturb_sa2(cities, itinerary, time):
+    neighborids1 = math.floor(np.random.rand() * (len(itinerary)))
+    neighborids2 = math.floor(np.random.rand() * (len(itinerary)))
+
+    itinerary2 = itinerary.copy()
+
+    randomdraw2 = np.random.rand()
+
+    small = min(neighborids1, neighborids2)
+    big = max(neighborids1, neighborids2)
+
+    if(randomdraw2 >= 0.55):
+        itinerary2[small:big] = itinerary2[small:big][:: -1]
+    elif(randomdraw2 < 0.45):
+        tempitin = itinerary[small:big]
+        del(itinerary2[small:big])
+        neighborids3 = math.floor(np.random.rand() * (len(itinerary)))
+
+        for j in range(0, len(tempitin)):
+            itinerary2.insert(neighborids3 + j, tempitin[j])
+    else:
+        itinerary2[neighborids1] = itinerary[neighborids2]
+        itinerary2[neighborids2] = itinerary[neighborids1]
+
+    distance1 = howfar(genlines(cities=cities, itinerary=itinerary))
+    distance2 = howfar(genlines(cities=cities, itinerary=itinerary))
+
+    itinerarytoreturn = itinerary.copy()
+
+    randomdraw = np.random.rand()
+    temperature = 1 / ((time / 1000) + 1)
+
+    if((distance2 > distance1 and (randomdraw) < (temperature)) or (distance1 > distance2)):
+        itinerarytoreturn = itinerary2.copy()
+
+    return (itinerarytoreturn.copy())
+
+for n in range(0, len(itinerary) * 50000):
+    itinerary_sa = perturb_sa2(cities=cities, itinerary=itinerary_sa, time=n)
+
+# Случайный маршрут
+print(howfar(genlines(cities=cities, itinerary=itinerary)))
+# Поиск с возмущением
+print(howfar(genlines(cities=cities, itinerary=itinerary_ps)))
+# Имитация отжига
+print(howfar(genlines(cities=cities, itinerary=itinerary_sa)))
+# Ближайший сосед
+print(howfar(genlines(cities=cities, itinerary=donn(cities=cities, N=N))))
+
+print("============  Предотвращения крупных потерь  =====================")
+print("==================================================================")
+print("============  Проверка эффективности  =====================")
+print("=============================================================")
+
+# ============  Проверка эффективности  =====================
+# =============================================================
+# 4.603862247788066
+# 7.37962855396978
+# 5.924388797206357
+# 6.29000579854535
+def perturb_sa3(cities, itinerary, time, maxitin):
+    neighborids1 = math.floor(np.random.rand() * (len(itinerary)))
+    neighborids2 = math.floor(np.random.rand() * (len(itinerary)))
+
+    global mindistance
+    global minitinerary
+    global minidx
+
+    itinerary2 = itinerary.copy()
+    randomdraw = np.random.rand()
+    randomdraw2 = np.random.rand()
+
+    small = min(neighborids1, neighborids2)
+    big = max(neighborids1, neighborids2)
+
+    if (randomdraw2 >= 0.55):
+        itinerary2[small:big] = itinerary2[small:big][:: -1]
+    elif (randomdraw2 < 0.45):
+        tempitin = itinerary[small:big]
+        del (itinerary2[small:big])
+        neighborids3 = math.floor(np.random.rand() * (len(itinerary)))
+
+        for j in range(0, len(tempitin)):
+            itinerary2.insert(neighborids3 + j, tempitin[j])
+    else:
+        itinerary2[neighborids1] = itinerary[neighborids2]
+        itinerary2[neighborids2] = itinerary[neighborids1]
+
+    temperature = 1 / (time/(maxitin / 10) + 1)
+
+    distance1 = howfar(genlines(cities=cities, itinerary=itinerary))
+    distance2 = howfar(genlines(cities=cities, itinerary=itinerary))
+
+    itinerarytoreturn = itinerary.copy()
+    scale = 3.5
+
+    if ((distance2 > distance1 and (randomdraw) < (math.exp(scale*(distance1 - distance2)) * temperature)) or (distance1 > distance2)):
+        itinerarytoreturn = itinerary2.copy()
+
+    reset = True
+    resetthresh = 0.04
+
+    if(reset and (time - minidx) > (maxitin * resetthresh)):
+        itinerarytoreturn = minitinerary
+        minidx = time
+
+    if(howfar(genlines(cities=cities, itinerary=itinerarytoreturn)) < mindistance):
+        mindistance = howfar(genlines(cities=cities, itinerary=itinerary2))
+        minitinerary = itinerarytoreturn
+        minidx = time
+
+    if(abs(time - maxitin) <= 1):
+        itinerarytoreturn = minitinerary.copy()
+
+    return (itinerarytoreturn.copy())
 
 
+#for n in range(0, len(itinerary) * 50000):
+#    itinerary_sa = perturb_sa3(cities=cities, itinerary=itinerary_sa, time=n)
 
+# Случайный маршрут
+print(howfar(genlines(cities=cities, itinerary=itinerary)))
+# Поиск с возмущением
+print(howfar(genlines(cities=cities, itinerary=itinerary_ps)))
+# Имитация отжига
+print(howfar(genlines(cities=cities, itinerary=itinerary_sa)))
+# Ближайший сосед
+print(howfar(genlines(cities=cities, itinerary=donn(cities=cities, N=N))))
 
+print("==========  Проверка эффективности  =================")
+print("=============================================================")
+def siman(itinerary, cities):
+    newitinerary = itinerary.copy()
 
+    global mindistance
+    global minitinerary
+    global minidx
+
+    mindistance = howfar(genlines(cities=cities, itinerary=itinerary))
+    minitinerary = itinerary
+    minidx = 0
+
+    maxitin = len(itinerary) * 50000
+
+    for t in range(0, maxitin):
+        newitinerary = perturb_sa3(cities=cities, itinerary=newitinerary, time=t, maxitin=maxitin)
+
+    return (newitinerary.copy())
+
+np.random.seed(random_seed)
+itinerary = list(range(N))
+nnitin = donn(cities=cities, N=N)
+
+nnresult = howfar(genlines(cities=cities, itinerary=nnitin))
+simanitinerary = siman(itinerary=itinerary, cities=cities)
+simanresult = howfar(genlines(cities=cities, itinerary=simanitinerary))
+
+print(nnresult)
+print(simanresult)
+print(simanresult//nnresult)
+
+# def plotitineary(cities, itin, plottitle, thename):
+plotitineary(cities=cities, itin=simanitinerary, plottitle='Traveling Salesman Itinerary - Simulating Annealing', thename='figure5')
+
+#
+# ==========  Проверка эффективности  =================
+# =============================================================
+# 6.29000579854535
+# 16.808756356994223
+# 2.0
+
+print("=============================================================")
