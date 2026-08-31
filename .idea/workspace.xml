@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce75116c-c2d1-4190-b11a-057ed49e74cd" name="Changes" comment="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
-      <change afterPath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0008_Geometry_001.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0009_Language_001.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0010_Tree_001.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_algorithms/everything.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_algorithms/final.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_algorithms/ml_data/ESS8e02.1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_algorithms/ml_data/ESS8e02.1_F1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_algorithms/ml_data/archive.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_algorithms/ml_data/variables.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_algorithms/tri.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_algorithms/two.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0010_Tree_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_algorithms/AlgorithmApp0010_Tree_001.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,14 +282,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784066026226</updated>
-    </task>
-    <task id="LOCAL-00036" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network">
-      <option name="closed" value="true" />
-      <created>1784453815718</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1784453815718</updated>
     </task>
     <task id="LOCAL-00037" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network">
       <option name="closed" value="true" />
@@ -685,7 +667,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788039233922</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="update project&#10;+recognise auto number&#10;+opencv course&#10;+simple neural network&#10;+cuda + GPU&#10;+ update = Blur face sample app&#10;+ sample python site&#10;+ example machine learning">
+      <option name="closed" value="true" />
+      <created>1788124823551</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1788124823552</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

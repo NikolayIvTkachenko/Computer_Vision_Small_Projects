@@ -44,18 +44,12 @@ meanhigher = np.mean(high_social_hapiness)
 print(f"meanlower = {meanlower}")
 print(f"meanhigher = {meanhigher}")
 
-
-
-
-
-
-
-
-
-
-
-
 print("=======================================")
+
+lowererrors = [abs(lowhappy - meanlower) for lowhappy in low_social_happiness]
+highererrors = [abs(highhappy - meanhigher) for highhappy in high_social_hapiness]
+
+total_error = sum(lowererrors) + sum(highererrors)
 
 
 
