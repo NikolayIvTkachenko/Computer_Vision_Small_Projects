@@ -121,7 +121,40 @@ def linearSearch(list, item):
     else:
         index = index + 1
     return found
+
 # Binary Search
+def binarySearch(list, item):
+    first = 0
+    last = len(list) - 1
+    found = False
+
+    while first <= last and not found:
+        midpoint = (first + last) // 2
+        if list[midpoint] == item:
+            found = True
+        else:
+            if item < list[midpoint]:
+                last = midpoint - 1
+            else:
+                first = midpoint + 1
+    return found
+
+# Interpolary Search
+def intPolsearch(list, x):
+    idx0 = 0
+    idxn = (len(list) - 1)
+    found = False
+
+    while idx0 <= idxn and x >= list[idx0] and x <= list[idxn]:
+        mid = idx0 + int(((float(idxn - idx0)/(list[idxn] - list[idx0])) * (x - list[idx0])))
+        if list[mid] == x:
+            found = True
+            return found
+        if list[mid] < x:
+            idx0 = mid + 1
+
+    return found
+
 
 
 print("====  Test Algorithms ====")
@@ -152,6 +185,10 @@ print(linearSearch(listTest, 1))
 print()
 
 print("====  Binary Search  ====")
-print(linearSearch(listTest, 1))
+print(intPolsearch(sortBubble(listTest), 1))
+print()
+
+print("====  Interpolary Search  ====")
+print(binarySearch(sortBubble(listTest), 1))
 print()
 
